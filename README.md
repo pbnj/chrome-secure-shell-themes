@@ -1,19 +1,13 @@
-# [Blink Shell](http://www.blink.sh) Themes
+# Chrome Secure Shell Themes
 
-With [Blink Shell](http://www.blink.sh) you can have your terminal, your way. We know how important it is for you to have your color scheme and the font that you feel comfortable looking at all day. And don't forget to send us your PR to share them with others too!
+This repo is a fork of [Blink Shell themes](https://github.com/blinksh/themes).
 
-[Blink Shell](http://www.blink.sh) uses [Chromium's HTerm](https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm) under the hood. This means our themes are also compatible with [Chrome's Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
-
-To install them on Blink, just paste the URL of the JS theme under Appearance -> Themes -> New Theme. If you would like to learn how to create your own, [continue reading!](https://github.com/blinksh/blink/blob/raw/Resources/FontsAndThemes.md)
-
-Themes have been initially adapted from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-
-Check also the [Fonts Gallery](https://github.com/blinksh/fonts)
-
-You can also find about [Blink's official repository](https://github.com/blinksh/blink)
-
+To install the theme on Chrome Secure Shell, copy the theme's JavaScript code,
+navigate to Chrome Secure Shell in your browser (i.e. `ssh://`), open the
+**JavaScript Console**, paste and execute the javascript code.
 
 ## Screenshots
+
 ### 3024 Day
 
 ![Screenshot](screenshots/3024_day.png)
@@ -206,7 +200,7 @@ You can also find about [Blink's official repository](https://github.com/blinksh
 
 ![Screenshot](screenshots/github.png)
 
-##Glacier###
+## Glacier
 
 ![Screenshot](screenshots/glacier.png)
 
@@ -354,7 +348,6 @@ You can also find about [Blink's official repository](https://github.com/blinksh
 
 ![Screenshot](screenshots/neutron.png)
 
-
 ### NightLion v1
 
 ![Screenshot](screenshots/nightlion_v1.png)
@@ -374,7 +367,6 @@ You can also find about [Blink's official repository](https://github.com/blinksh
 ### Ocean
 
 ![Screenshot](screenshots/ocean.png)
-
 
 ### OceanicMaterial
 
@@ -614,6 +606,7 @@ more information.
 ![Screenshot](screenshots/zenburn.png)
 
 ## Credits
+
 The schemes Novel, Espresso, Grass, Homebrew, Ocean, Pro, Man Page, Red Sands, and Terminal Basic are ports of the schemes of the same name included with the Mac Terminal application. All of Terminal's schemes have now been ported, with the excption of "Solid Colors" (random backgrounds, which iTerm doesn't support) and "Aerogel" (which is hideous).
 
 The scheme idleToes was inspired by the [idleFingers](http://idlefingers.co.uk/) TextMate theme and suggested for inclusion by Seth Wilson.
