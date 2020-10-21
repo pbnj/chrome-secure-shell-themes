@@ -6,6 +6,15 @@ To install the theme on Chrome Secure Shell, copy the theme's JavaScript code,
 navigate to Chrome Secure Shell in your browser (i.e. `ssh://`), open the
 **JavaScript Console**, paste and execute the javascript code.
 
+To reset Chrome Secure Shell's appearance:
+
+```js
+term_.prefs_.reset("color-palette-overrides");
+term_.prefs_.reset("foreground-color");
+term_.prefs_.reset("background-color");
+term_.prefs_.reset("cursor-color");
+```
+
 ## Screenshots
 
 ### 3024 Day
