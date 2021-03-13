@@ -1,7 +1,12 @@
 # Chrome Secure Shell Themes
 
-A fork of [Blink Shell themes](https://github.com/blinksh/themes) for Chrome
-Secure Shell.
+## Overview
+
+A collection of themes for Chrome Secure Shell, generated using
+[xrdb2hterm](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/tools/xrdb2hterm)
+script to convert
+[`xrdb/*`](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/xrdb)
+themes to hterm themes.
 
 ## Install
 
@@ -22,3 +27,12 @@ To reset Chrome Secure Shell's appearance:
    term_.prefs_.reset("background-color");
    term_.prefs_.reset("cursor-color");
    ```
+
+## Thanks
+
+This project would not be possible without [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+and all the great contributions from the community.
+
+## License
+
+MIT
